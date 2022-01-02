@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<list>
+  <category name="Action adventure">
+    <choice>
+      <book>The Witcher</book>
+      <price>10.50</price>
+    </choice>
+    <choice>
+      <book>Dune</book>
+      <price>15.00</price>
+    </choice>
+  </category>
+  <category name="classic">
+    <choice>
+      <book>Animal Farm</book>
+      <price>5.99</price>
+    </choice>
+    <choice>
+      <book>Moby-Dick</book>
+      <price>9.50</price>
+    </choice>
+  </category>
+  <category name="Comic Book ">
+    <choice>
+      <book>The Batman: The dark knight</book>
+      <price>12.99</price>
+    </choice>
+    <choice>
+      <book>Spiderman into the Spider-Verse</book>
+      <price>8.99</price>
+    </choice>
+  </category>
+  <category name="Detective and Mystery">
+    <choice>
+      <book>Shelock Home</book>
+      <price>7.50</price>
+    </choice>
+    <choice>
+      <book>The Man who died Twice</book>
+      <price>9.99</price>
+    </choice>
+  </category>
+  <category name="Fantasy">
+    <choice>
+      <book>The wonderful wizard of Oz</book>
+      <price>10.99</price>
+    </choice>
+    <choice>
+      <book>Alice in wonderland</book>
+      <price>9.99</price>
+    </choice>
+  </category>
+</list>
