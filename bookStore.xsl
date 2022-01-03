@@ -23,6 +23,7 @@
             <tr>
                 <th>category</th>
                 <th>Book</th>
+                <th>Quantity</th>
                 <th>Price</th>
             </tr>
         </thead>
@@ -34,9 +35,15 @@
                     </td>
                 </tr>
                 <xsl:for-each select="choice">
-                    <tr id="{position()}">
-                        <td align="center">
-                            <input name="book0" type="checkbox" />
+                    <tr>
+                        <td>
+                            <xsl:element name="img">				
+                            <xsl:attribute name="src">				
+                            <xsl:value-of select="photo"/>		  		
+                             </xsl:attribute>	
+                             <xsl:attribute name="width">150</xsl:attribute>						
+                             <xsl:attribute name="align">left</xsl:attribute>		
+                </xsl:element>
                         </td>
                         <td>
                             <xsl:value-of select="book" />
