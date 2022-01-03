@@ -23,7 +23,6 @@
             <tr>
                 <th>category</th>
                 <th>Book</th>
-                <th>Quantity</th>
                 <th>Price</th>
             </tr>
         </thead>
@@ -51,6 +50,15 @@
                         <td align="right">
                             <xsl:value-of select="price" />
                         </td>
+                    </tr>
+                    <tr>
+                    <td>
+                    </td>
+                     <td>
+                     <xsl:value-of select="p"/>
+                     </td>
+                     <td>
+                     </td>
                     </tr>
                 </xsl:for-each>
             </xsl:for-each>

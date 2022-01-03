@@ -9,7 +9,7 @@
       <price>10.50</price>
     </choice>
     <choice>
-      <photo>images/dune.jpg</photo>
+      <photo>images/Dune.jpg</photo>
       <book>Dune</book>
       <p>Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, 
       must travel to the most dangerous planet in the universe to ensure the future of his family and his people.</p>
@@ -18,7 +18,7 @@
   </category>
   <category name="classic">
     <choice>
-      <photo>images/Animal_Farm.jpg</photo>
+      <photo>images/Animal-Farm.jpg</photo>
       <book>Animal Farm</book>
       <p>Animal Farm is a satirical allegorical novella by George Orwell,
       first published in England on 17 August 1945.</p>
@@ -35,7 +35,7 @@
   </category>
   <category name="Comic Book ">
     <choice>
-      <photo>images/The_DarK_Knight.jpg</photo> 
+      <photo>images/Thebatman.jpg</photo> 
       <p>The Dark Knight Returns is a 1986 four-issue comic book miniseries starring Batman,
       written by Frank Miller, illustrated by Miller, and Klaus Janson, with color by Lynn Varley, 
       and published by DC Comics.</p>
@@ -54,7 +54,7 @@
   </category>
   <category name="Detective and Mystery">
     <choice>
-      <photo>images/</photo>
+      <photo>images/sherlock.jpg</photo>
       <book>Shelock Home</book>
       <p>The Adventures of Sherlock Holmes is a collection of twelve short stories by Arthur Conan Doyle, 
       first published on 14 October 1892.</p>
@@ -70,7 +70,7 @@
   </category>
   <category name="Fantasy">
     <choice>
-      <photo>images/magicOz.jpg</photo>
+      <photo>images/magicOZ.jpg</photo>
       <book>The wonderful wizard of Oz</book>
       <p>
       he Wonderful Wizard of Oz is an American children's novel written by author L.
