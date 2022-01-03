@@ -4,7 +4,7 @@
 	<xsl:template match="/">
 		<html>
 			<head>
-				<title>Paddy's Cafe Menu</title>
+				<title>Book Store</title>
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 				<style>
 				body{font-family:Arial,Helvetica,sans-serif;background-color:#fff;margin:5px;text-align:left;color:#523819}
@@ -35,9 +35,6 @@
                 </tr>
                 <xsl:for-each select="choice">
                     <tr id="{position()}">
-                        <xsl:attribute name="vegetarian">
-                            <xsl:value-of select="boolean(@vegetarian)" />
-                        </xsl:attribute>
                         <td align="center">
                             <input name="book0" type="checkbox" />
                         </td>
