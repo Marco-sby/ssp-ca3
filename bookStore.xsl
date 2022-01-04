@@ -6,16 +6,50 @@
 			<head>
 				<title>Book Store</title>
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-				<style>
-				body{font-family:Arial,Helvetica,sans-serif;background-color:#fff;margin:5px;text-align:left;color:#523819}
-				h2{font-size:140%;color:#0d3427;margin-top:10px}
-				p{font-size:80%;color:#523819}
-				table{background-color:#dacfe5;border-color:#000;border-width:thin;border-collapse:collapse;width:75%}
-				th{border-color:#000;font-size:120%;color:#0d3427}
-				td{border-color:#000;font-size:100%;color:#523819;padding:5px}
-				img{float:left;margin-left:10px;margin-right:10px;border:0}
-				.indent{margin-left:78px}
-				</style>
+                <style>
+                body{
+    font-family:Arial,Helvetica,sans-serif;
+    background-color:#523819;
+    margin:5px;
+    text-align:left;color:#523819
+}
+h2{
+   font-size:140%;
+   color:#0d3427;
+    margin-top:10px
+}
+p{
+   font-size:80%;
+   color:#523819
+}
+table{
+    background-color:hsla(35, 96%, 55%, 0.952);
+    border-color:none;
+    border-width:none;
+    border-collapse:collapse;
+    width:75%;
+}
+th{
+    border-color:#000;
+    font-size:120%;
+    color:#0d3427
+}
+td{
+  border-color:#000;
+  font-size:100%;
+  color:#523819;
+  padding:5px;
+}
+img{
+    float:left;
+    margin-left:10px;
+    margin-right:10px;
+    border:0;
+}
+.indent{
+    margin-left:78px;
+}
+                </style>
 	        </head>
             <body>
              <table id="menuTable" border="1" class="indent">
