@@ -1,0 +1,19 @@
+{
+  "name": "ssp-ca3-marco",
+  "version": "0.0.1",
+  "description": "create a packet jason",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marco-sby/ssp-ca3.git"
+  },
+  "author": "Marco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marco-sby/ssp-ca3/issues"
+  },
+  "homepage": "https://github.com/Marco-sby/ssp-ca3#readme"
+}
