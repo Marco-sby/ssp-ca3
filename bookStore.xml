@@ -6,23 +6,23 @@
       <book>The Witcher</book>
       <p>The Witcher is a series of six fantasy novels and 15 short stories 
        written by Polish author Andrzej Sapkowski.</p>
-      <price>10.50</price>
+      <price>$10.50</price>
     </choice>
     <choice>
       <photo>images/Dune.jpg</photo>
       <book>Dune</book>
       <p>Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, 
       must travel to the most dangerous planet in the universe to ensure the future of his family and his people.</p>
-      <price>15.00</price>
+      <price>$15.00</price>
     </choice>
   </category>
-  <category name="classic">
+  <category name="Classic">
     <choice>
       <photo>images/Animal-Farm.jpg</photo>
       <book>Animal Farm</book>
       <p>Animal Farm is a satirical allegorical novella by George Orwell,
       first published in England on 17 August 1945.</p>
-      <price>5.99</price>
+      <price>$5.99</price>
     </choice>
     <choice>
       <photo>images/moby-dick.jpg</photo> 
@@ -40,7 +40,7 @@
       written by Frank Miller, illustrated by Miller, and Klaus Janson, with color by Lynn Varley, 
       and published by DC Comics.</p>
       <book>The Batman: The dark knight</book>
-      <price>12.99</price>
+      <price>$12.99</price>
     </choice>
     <choice>
       <photo>images/Man_of_Steel.jpg</photo> 
@@ -49,7 +49,7 @@
       Continuing legendary comic creator John Byrne's (X-Men, Fantastic Four, Batman)
       presentation of a revisionary history of the greatest and most iconic hero of them all!
       </p>
-      <price>8.99</price>
+      <price>$8.99</price>
     </choice>
   </category>
   <category name="Detective and Mystery">
@@ -65,7 +65,7 @@
       <book>The Man who died Twice</book>
       <p> The Man Who Died Twice is a crime novel written by 
       British comedian and presenter Richard Osman.</p>
-      <price>9.99</price>
+      <price>$9.99</price>
     </choice>
   </category>
   <category name="Fantasy">
@@ -75,7 +75,7 @@
       <p>
       he Wonderful Wizard of Oz is an American children's novel written by author L.
       Frank Baum and illustrated by W. W. Denslow.</p>
-      <price>10.99</price>
+      <price>$10.99</price>
     </choice>
     <choice>
       <photo>images/alice.jpg</photo>
@@ -84,7 +84,7 @@
         A young girl named Alice falls through a rabbit hole into a fantasy 
         world of anthropomorphic creatures. 
       </p>
-      <price>9.99</price>
+      <price>$9.99</price>
     </choice>
   </category>
 </list>

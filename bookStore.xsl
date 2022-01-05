@@ -11,7 +11,8 @@
     font-family:Arial,Helvetica,sans-serif;
     background-color:#523819;
     margin:5px;
-    text-align:left;color:#523819
+    text-align:left;
+    color:#523819;
 }
 h2{
    font-size:140%;
@@ -19,26 +20,34 @@ h2{
     margin-top:10px
 }
 p{
-   font-size:80%;
+   font-size:1000%;
    color:#523819
 }
 table{
     background-color:hsla(35, 96%, 55%, 0.952);
-    border-color:none;
-    border-width:none;
     border-collapse:collapse;
-    width:75%;
+    width:75%;   
+}
+.title{
+    text-align:center;
+    font-style:italic;
 }
 th{
     border-color:#000;
     font-size:120%;
-    color:#0d3427
+    align: center;
+    color:#0d3427;
 }
 td{
   border-color:#000;
   font-size:100%;
-  color:#523819;
+  color::#523819;
+  font-style:italic;
   padding:5px;
+}
+.name{
+   font-size:110%; 
+
 }
 img{
     float:left;
@@ -52,17 +61,17 @@ img{
                 </style>
 	        </head>
             <body>
-             <table id="menuTable" border="1" class="indent">
+             <table id="menuTable"  class="indent">
              <thead>
-            <tr>
-                <th>category</th>
+            <tr class="title">
+                <th>Category</th>
                 <th>Book</th>
                 <th>Price</th>
             </tr>
         </thead>
         <tbody>
             <xsl:for-each select="//category">
-                <tr>
+                <tr align="center" class="name">
                     <td colspan="3">
                         <xsl:value-of select="@name" />
                     </td>
